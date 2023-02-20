@@ -1,0 +1,436 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(255, 255, 255);
+}
+
+.fond{
+    background-image: url("../images/fond3.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 3300px; 
+}
+
+
+/*----------POLICE------------- */
+li{
+    list-style: none;
+    padding-right: 80px;
+    padding-left: 80px;
+    color:#E0A26E !important;
+}
+
+li a{
+    text-decoration: none;
+    color:#62759F !important;
+    font-size: 16px;
+}
+
+button a{
+    text-decoration: none;
+    color:#ffffff !important;
+    font-size: 16px;
+}
+
+button a:hover{
+    color:#E0A26E !important;
+}
+
+.nav-item a:hover{
+    color:#E0A26E !important;
+    text-decoration: none;
+}
+
+.soustitre{
+    color: #62759F;
+    font-size: 40px;  
+}
+
+.bleu1{
+    color: #7e889d;
+    transform: scaleY(-1);
+    font-size: 60px;
+}
+
+.bleu{
+    font-size: 18px;
+    color:#62759F;
+}
+
+.pink{
+    color: #E0A26E;
+    font-size: 60px;
+}
+
+.pink2{
+    color: #E0A26E;
+    font-size: 40px;
+}
+
+
+/*----------POLICE------------- */
+.boutton1{
+    color:white;
+    background-color: #232F48;
+    text-decoration: none;
+    border: white solid 2px;
+    border-radius: 15px 15px 15px 0px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    width: 160px;
+}
+
+.boutton1 a{
+    color:white;
+}
+
+button a:hover{
+    color:#E0A26E !important;
+/*     text-decoration: none; */
+}
+
+.boutton2{
+    background-color: #232F48;
+    border: #C4D7EE solid 2px;
+    border-radius: 15px 15px 15px 0px;
+    padding-top: 5px;
+    padding-bottom: 7px;
+    width: 160px;
+}
+
+
+/*----------NAVBAR------------- */
+#navbar{
+/*     position: fixed; */
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 50px;
+/*     background-color: transparent;
+    transition: background-color 0.5s ease; */
+}
+
+/* #navbar.scroll{
+  border-bottom: #E0A26E solid 0.5px;
+ 
+} */
+
+
+/* -------------GRID HOMEPAGE----------------- */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+  
+.item1{
+    display:flex;
+    align-content: center;
+    flex-direction: column;
+    transform: translateY(250px);
+    padding-left: 20%;
+}
+  
+.item2{
+    grid-column: 2 / 3;
+}
+  
+.item3{
+    grid-column: 3/ 4;
+    margin-right: 10%;
+    display:flex;
+    flex-direction: column;
+    transform: translateY(450px);
+    position: relative;
+    right: 100px;
+}
+
+.pieds{
+position: relative;
+top: -100px;
+left:-
+}
+
+
+/* -------------MAIN------------- */
+.grid-container2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+  
+.grid-item2{
+  display:grid;
+  align-items: center;
+  justify-content: center;
+  margin-top: 150px;
+  height: 300px;
+}
+  
+.col1{
+    grid-column: 1 / 2;
+}
+  
+.col2{
+    grid-column: 2 / 3;
+}
+  
+.row1{
+    grid-row: 1 / 2;
+}
+  
+.row2{
+    grid-row: 2 / 3;
+}
+  
+.row3{
+    grid-row: 3 / 4;
+}
+
+.image-grid2{
+    display:flex;
+    align-content: center;
+}
+ 
+
+/* ------------FOOTER------------------ */
+.newsletters{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 250px;
+    width: 80%;
+    transform: translateX(30px);
+}
+
+.newsletters1{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 55%;
+    height: 100%;
+}
+
+.newsletters2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+
+footer{
+    display:flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    margin-bottom: 30px;
+}
+.footer{
+    display:flex;
+    align-items:center;
+    justify-content: space-around;
+    flex-direction: column;
+    background-color: #C4D7EE;
+    border: #FCD9BD solid 2px;
+    box-shadow: #4e5462;
+    border-radius: 50px 50px 50px 0px;
+    height: 250px;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.entreprise{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: stretch;
+}
+
+.socialmedia{
+    display:flex;
+    justify-content: space-around;
+}
+
+.media{
+    margin-right: 25px;
+}
+
+/* --------CALENDRIER EVENEMENT ET CONTACT------------- */
+ .information {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px;
+    margin-top: 280px;
+    }
+
+        /*  Calendrier d'événements */
+.nosEvenements{
+    width: 30%;
+}
+
+#calendar {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    width: 100%;
+  }
+  
+  #month {
+    background-color: #232F48;
+    padding: 20px;
+  }
+  
+  #month-name {
+    font-size: 36px;
+    margin: 0;
+    color: #ffffff;
+  }
+  
+  #calendar-table {
+    width: 100%;
+    height: 100%;
+    border-collapse: collapse;
+
+  }
+  
+  th {
+    background-color: #C4D7EE;
+    border: 1px solid #232f4843;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  td {
+    border: 1px solid #232f4843;
+    text-align: center;
+    padding: 8px;
+  }
+  
+  .bg-info {
+    background-color: #FCD9BD;
+  }
+  
+
+        /* Formulaire de contact */
+.nousContacter{
+    width: 30%;
+}
+.contact{
+    max-width: 500px;
+    margin: 0%;
+    padding: 1em;
+    border: #62759F solid 1px;
+    width: 100%;
+    height: auto;
+  }
+
+  .form-group {
+    margin: 1em 0;
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+  }
+
+
+ /*  -------INDEX2--------- */
+ .utilisateur{
+    height: 500px;
+    padding-top: 90px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: #ffe4ce solid 0.5px;
+ }
+
+    /*  formulaire d'inscription */
+    #formulaire-inscription {
+        width: 500px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid gray;
+      }
+      
+      .form-group {
+        margin-bottom: 20px;
+      }
+      
+      label {
+        font-weight: bold;
+        margin-bottom: 10px;
+        display: block;
+      }
+      
+     
+      input,
+      textarea {
+        width: 100%;
+        padding: 0.5em;
+        font-size: 1em;
+        box-sizing: border-box;
+        width: 100%;
+        border: 1px solid gray;
+        border-radius: 10px 10px 10px 0px;
+      }
+      
+      button[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        color: white;
+        border: 0;
+        cursor: pointer;
+        background-color: #232F48;
+        text-decoration: none;
+        border-radius: 10px 10px 10px 0px;
+      }
+      
+
+  
+      .wine-list {
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+      }
+
+      .wine-item {
+        border: 1px solid #ddd;
+        padding: 20px;
+        margin: 20px 0;
+      }
+
+      .wine-name {
+        font-size: 24px;
+        font-weight: bold;
+        margin: 20px 0;
+      }
+
+      .wine-price {
+        font-size: 18px;
+        color: #888;
+      }
+
+      .wine-description {
+        font-size: 16px;
+        margin: 20px 0;
+      }
+
+      .wine-tips {
+        font-size: 14px;
+        font-style: italic;
+        color: #555;
+      }
+
+
